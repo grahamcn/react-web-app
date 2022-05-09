@@ -1,6 +1,7 @@
 {
   "env": {
     "browser": true,
+    "node": true,
     "es2021": true
   },
   "extends": [
@@ -15,9 +16,13 @@
     "ecmaFeatures": {
       "jsx": true
     },
+
     "ecmaVersion": "latest",
     "sourceType": "module"
   },
   "plugins": ["react", "@typescript-eslint"],
-  "rules": {}
+  "rules": {
+    "@typescript-eslint/explicit-function-return-type": 1,
+    "@typescript-eslint/explicit-module-boundary-types": 1
+  }
 }

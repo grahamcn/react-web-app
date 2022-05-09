@@ -2,8 +2,8 @@ import React from 'react'
 
 import './App.scss'
 
-const App = () => {
-  return <>Hello.</>
+function App(): React.ReactElement {
+  return <>Hello</>
 }
 
 export default App
