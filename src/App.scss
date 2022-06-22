@@ -1,9 +1,5 @@
-$color: steelblue;
+// common resets
+@use './styles/_reset';
 
-:root {
-  --font-size: 1.5em;
-}
-
-body {
-  color: $color;
-}
+// base styles, partials, application specific properties, theme and mixins.
+@use './styles/_index.scss';

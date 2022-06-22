@@ -10,7 +10,13 @@
     "plugin:@typescript-eslint/recommended",
     "plugin:prettier/recommended"
   ],
-  "ignorePatterns": ["webpack/", "node_modules/"],
+  "ignorePatterns": [
+    "**/*.md",
+    "custom-types",
+    "dist",
+    "node_modules/",
+    "webpack/"
+  ],
   "parser": "@typescript-eslint/parser",
   "parserOptions": {
     "ecmaFeatures": {

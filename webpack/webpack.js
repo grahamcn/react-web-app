@@ -33,6 +33,11 @@ module.exports = (env) => {
           },
         },
         {
+          test: /\.svg$/i,
+          issuer: /\.[jt]sx?$/,
+          use: ['@svgr/webpack'],
+        },
+        {
           test: /\.scss$/i,
           use: [MiniCssExtractPlugin.loader, 'css-loader', 'sass-loader'],
         },

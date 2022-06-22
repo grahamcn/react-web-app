@@ -19,6 +19,7 @@
     "react-dom": "^18.1.0"
   },
   "devDependencies": {
+    "@svgr/webpack": "^6.2.1",
     "@typescript-eslint/eslint-plugin": "^5.18.0",
     "@typescript-eslint/parser": "^5.18.0",
     "css-loader": "^6.7.1",
